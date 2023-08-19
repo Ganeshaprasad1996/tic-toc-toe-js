@@ -49,12 +49,12 @@ nav ul {
 }
 
 .box:hover {
-    background-color: rgb(204, 192, 241);
+    background-color: yellow
 }
 
 .gameInfo {
     padding: 0 34px;
-    font-family: 'Barriecito', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 .imagebox img {
@@ -62,14 +62,19 @@ nav ul {
 }
 
 #reset {
+    
     margin: 0 23px;
-    padding: 1px 18px;
+    padding: 20px 45px;
     background-color: rgb(179, 245, 179);
-    border-radius: 6px;
     cursor: pointer;
-    font-size: 15px;
+    border-radius: 6px;
+    font-size: 28px;
     font-family: 'Oswald', sans-serif;
-
+border: 3px solid black;
+}
+.gameInfo div{
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 #reset:hover {
@@ -88,7 +93,7 @@ nav ul {
     }
 
     .heading {
-        font-size: 0.8rem;
+        
         text-align: center;
         font-family: 'Barriecito', cursive;
         margin-top: 20px;
@@ -113,7 +118,7 @@ nav ul {
         -webkit-text-fill-color: transparent;
         animation: textclip 2s linear infinite;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     @keyframes textclip {
@@ -130,16 +135,18 @@ nav ul {
 
     .waviy {
         margin-top: 30px;
-display: none;
+
 
     }
-
+.text-style-play{
+    color:green;
+}
     .waviy span {
+      
         position: relative;
         display: inline-block;
         font-size: 40px;
-        color: #0d0a0a;
-        text-transform: uppercase;
+               text-transform: uppercase;
         animation: flip 2s infinite;
         animation-delay: calc(.2s * var(--i))
     }
@@ -151,4 +158,16 @@ display: none;
         }
 
     }
+    .gameover-box{
+        position: absolute;
+        top: 45%;
+        font-size: 4.5rem;
+        color: red;
+        display: none;
+    }
+
+    .game-turn{
+        font-size: 3.5rem;
+    }
 }
+
