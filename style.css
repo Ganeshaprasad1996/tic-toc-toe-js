@@ -69,7 +69,7 @@ nav ul {
     cursor: pointer;
     font-size: 15px;
     font-family: 'Oswald', sans-serif;
-    
+
 }
 
 #reset:hover {
@@ -80,6 +80,7 @@ nav ul {
 
     .gameContainer {
         flex-wrap: wrap;
+        margin-top: 20px;
     }
 
     .gameInfo {
@@ -93,10 +94,8 @@ nav ul {
         margin-top: 20px;
 
     }
-    #reset{
-        
-    }
 
+  
     .welcome-text {
         text-transform: uppercase;
         background-image: linear-gradient(-225deg,
@@ -130,9 +129,8 @@ nav ul {
     }
 
     .waviy {
-        position: relative;
-        
-       
+        margin-top: 20px;
+
     }
 
     .waviy span {
@@ -146,7 +144,6 @@ nav ul {
     }
 
     @keyframes flip {
-
         0%,
         80% {
             transform: rotateY(360deg)
