@@ -49,7 +49,7 @@ nav ul {
 }
 
 .box:hover {
-    background-color: rgb(114, 72, 253);
+    background-color: rgb(204, 192, 241);
 }
 
 .gameInfo {
@@ -80,7 +80,7 @@ nav ul {
 
     .gameContainer {
         flex-wrap: wrap;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .gameInfo {
@@ -129,7 +129,8 @@ nav ul {
     }
 
     .waviy {
-        margin-top: 20px;
+        margin-top: 30px;
+display: none;
 
     }
 
